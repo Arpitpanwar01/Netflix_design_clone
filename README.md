@@ -7,7 +7,7 @@ A simple Netflix UI clone built using HTML, CSS, and JavaScript.
 1. Download or clone this repository.
 
 ```bash
-git clone https://github.com/your-username/netflix-clone.git
+https://github.com/Arpitpanwar01/Netflix_design_clone.git
 ```
 
 2. Open the project folder in **VS Code**.
