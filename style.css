@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-image: url("bg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size:max(100vw,1350px);
+    height: 80vh;
+    position: relative;
+}
+.first{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 10px;
+}
+.second{
+    height: 100%;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+}
+.third{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+}
+.third-in-1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.third-in-2{
+    color: white;
+    font-size: 18px;
+}
+.logo{
+    height: 40px;
+
+}
+#myDropdown{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27,0.4);
+    color: white;
+    font-weight: bolder;
+    padding: 5px 15px;
+}
+#myDropdown:hover {
+    background-color: rgb(56, 49, 49); /* Lighter gray on hover */
+    cursor: pointer;
+}
+
+.btn1{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 15px;
+    margin: 20px;
+}
+.btn2{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 15px;
+    margin: 20px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(148, 15, 15); /* Lighter gray on hover */
+    cursor: pointer;
+}
+main{
+    position: relative;
+     background-color:black;
+}
+.main-in-1{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.boxes{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-columns:repeat(10, 1fr);
+    gap: 10px;
+    padding: 20px;
+    overflow:scroll;
+}
+.box{
+    height: 40vh;
+    width: 30vh;
+    background-image: url('mcard3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 30px;
+
+}
+.boxes::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+.box1:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box2:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box3:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box4:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box5:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box6:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box7:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box8:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box9:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+.box10:hover{
+    height: 42vh;
+    width: 32vh;
+    font-size: 83px;
+    cursor: pointer;
+}
+
+main span{
+    font-size: 100px;
+    font-weight: 900;
+    color: black;
+    position: relative;
+    position: absolute;
+    bottom: -20px;
+    left:-20px;
+    text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
+.main-in-2{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    overflow: scroll;
+}
+.container1::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+.card{
+    height: 50vh;
+    width: 40vh;
+    background: linear-gradient(to right, rgba(3, 13, 22, 1) 16%, rgba(1, 40, 200, 1), rgba(22, 9, 20, 1), rgba(2, 22, 2, 1), rgba(33, 13, 22, 1) 1000%);
+    background-size: 100%;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+}
+.card div{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.card p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    color: rgb(151, 136, 136);  
+}
+.card img{
+     height: 20px;
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+}
+.main-in-3{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container2{
+    width: 80%;
+    margin: auto;
+
+}
+.rect{
+    margin: 10px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 28px;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    color: white;
+
+}
+.rect div{
+    font-size: 60px;
+    font-weight: 150;
+}
+.container3{
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+}
+.container3-in-1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 10px;
+}
+.btn3{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.container3-in-1 input{
+    color: white;
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(27,27,27,0.4);
+}
+
+footer{
+    background-color:black;
+    color: white;
+
+    font-size: 12px;
+}
+
+.footer-box{
+    width: 80%;
+    margin: auto;
+}
+.footer-in-1{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-decoration: underline;
+}
+.footer-in-1:hover{
+    cursor: pointer;
+}
+.footer-in-3{
+    margin: 30px;
+    font-size: 15px; 
+}
+.lastline{
+    padding: 10px;
+    font-size: 20px;
+}
